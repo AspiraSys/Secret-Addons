@@ -1,0 +1,63 @@
+{
+  "pageList": [
+    {
+      "id": "393293",
+      "pageScanId": "65e74c37ab601d1a05d39ab6",
+      "spaceId": "393219",
+      "title": "Test Page",
+      "description": "These tokens must be handled with the utmost care, as any exposure can lead to unauthorized access as ****************** and potentially catastrophic security breaches. To safeguard API tokens, developers implement measures such as token expiration, scopes that limit access rights, and secure storage solutions like environment variables or secrets management systems.Combating cyber threats requires a collaborative effort between individuals, businesses, and governments. Information sharing and collaboration can help identify and mitigate threats more effectively of number as 000000000000. Industry groups, such as the Cyber Threat Alliance, facilitate the sharing of threat intelligence among members, enhancing collective security.",
+      "disallowedWord": ["APIKEY", "CREDITCARD", "PASSWORD", "PHONE"],
+      "findings": {
+        "APIKEY": [
+          "Use the API Key <em style='background-color:cyan'>dewere334g@#$$dfgtrth789asddfdf</em>."
+        ],
+        "PHONE": [
+          "Refer phone# <em style='background-color:pink'>+91 123 456 7890</em>."
+        ]
+      },
+      "review": false,
+      "lastScanBy": "abish.test@gmail.com",
+      "lastScanDate": "2024-03-05T22:15:43.847",
+      "lastReviewDate": "2024-03-05T22:15:43.847"
+    },
+    {
+      "id": "950278",
+      "pageScanId": "65e74c45ab601d1a05d39ab7",
+      "spaceId": "393219",
+      "title": "Test Content",
+      "description": "In today's fast-paced digital world, the importance of securing sensitive data cannot be overstated. As we increasingly rely on technology for everyday transactions, communication, and information storage, the risk of data breaches and cyber-attacks has escalated dramatically. Among the most sensitive pieces of information that require stringent protection are credit card details, API tokens, and passwords.Credit card numbers, such as **************, are prime targets for cybercriminals. A single breach can lead to significant financial losses, identity theft, and a severe breach of trust between consumers and businesses. To combat these threats, various security measures have been implemented over the years. API tokens, such as *******************, play a crucial role in the secure exchange of data between systems. They act as a form of digital identity verification, ensuring that only authorized applications and users can access specific data or services. Passwords remain one of the most common forms of authentication, yet they are often the weakest link in digital security. A password like **********, while seemingly complex, can still be vulnerable to various attack vectors if not managed properly. ",
+      "disallowedWord": ["CREDITCARD", "APIKEY", "PASSWORD", "PHONE"],
+      "findings": {
+        "PASSWORD": [
+          "demo password <em style='background-color:lightgreen'>India$123456</em>."
+        ],
+        "CREDITCARD": [
+          "demo credit card <em style='background-color:lightblue'>1234567811112222</em>."
+        ],
+        "APIKEY": [
+          "Use the API Key <em style='background-color:cyan'>dfreste334g@#$$dfgtrth789asddfdf</em>."
+        ]
+      },
+      "review": false,
+      "lastScanBy": "abish.test@gmail.com",
+      "lastScanDate": "2024-03-05T22:15:57.856",
+      "lastReviewDate": "2024-03-05T22:15:57.856"
+    },
+    {
+      "id": "2064385",
+      "spaceId": "393219",
+      "title": "page-2",
+      "description": "These estimates assume a moderate level of complexity and average productivity. Adjustments might be necessary based on specific project requirements, team skill levels, and unforeseen challenges. Additionally, concurrent development of the mobile application and backend can optimize the timeline, ensuring that both components are integrated and tested together effectively.",
+      "disallowedWord": ["CREDITCARD", "APIKEY", "PASSWORD", "PHONE"],
+      "findings": {
+        "PASSWORD": "",
+        "CREDITCARD": "",
+        "APIKEY": ""
+      },
+      "review": false
+    }
+  ],
+  "pagelevelScanEnabled": true,
+  "dueDays": 10,
+  "scanOnPageChangesEnabled": true
+}

@@ -1,0 +1,18 @@
+modules:
+  confluence:globalPage:
+    - key: secret-hello-world
+      resource: main
+      resolver:
+        function: resolver
+      title: Secret
+      route: hello-world
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  runtime:
+    name: nodejs18.x
+  id: ari:cloud:ecosystem::app/ac0684af-63c8-4d4b-b552-9620245b8e5c

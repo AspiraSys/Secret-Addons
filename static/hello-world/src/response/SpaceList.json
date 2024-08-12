@@ -1,0 +1,28 @@
+[
+  {
+    "createdAt": "2023-12-09T06:10:10.968Z",
+    "authorId": "712020:15fdf638-a955-4a9f-afa7-92d960f513f3",
+    "homepageId": "393293",
+    "icon": "https://img.freepik.com/free-vector/rocket-flying-moon-cartoon-vector-icon-illustration-technology-transportation-icon-isolated_138676-5157.jpg?size=338&ext=jpg&ga=GA1.1.1413502914.1719878400&semt=ais_user",
+    "name": "space-1",
+    "key": "space1",
+    "id": "393219",
+    "type": "global",
+    "description": null,
+    "status": "current",
+    "_links": {}
+  },
+  {
+    "createdAt": "2024-01-10T11:16:35.810Z",
+    "authorId": "712020:15fdf638-a955-4a9f-afa7-92d960f513f3",
+    "homepageId": "3276905",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSdTNiE-TH5w7QLqmV3Yyyo5LBvhWXPYBNaQ&s",
+    "name": "Blank Test Space",
+    "key": "BTS",
+    "id": "3276826",
+    "type": "global",
+    "description": null,
+    "status": "current",
+    "_links": {}
+  }
+]
