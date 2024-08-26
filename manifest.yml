@@ -12,7 +12,41 @@ modules:
 resources:
   - key: main
     path: static/hello-world/build
+    tunnel:
+      port: 3000
 app:
   runtime:
     name: nodejs18.x
   id: ari:cloud:ecosystem::app/ac0684af-63c8-4d4b-b552-9620245b8e5c
+permissions:
+  scopes:
+    - read:confluence-props
+    - write:confluence-props
+    - read:confluence-content.summary
+  external:
+    scripts:
+      - 'https://unpkg.com/@ffmpeg/core@0.10.0/dist/ffmpeg-core.js'
+    images:
+      - '*.gravatar.com'
+      - '*.wp.com'
+      - '*.atl-paas.net'
+      - '*.atlassian.com'
+      - '*.freepik.com'
+      - '*.gstatic.com'
+    fetch:
+      client:
+        - '*.atlassian.net'
+        - 'https://forge.cdn.prod.atlassian-dev.net'
+        - 'https://fonts.googleapis.com/'
+      backend:
+        - '*.atlassian.net'
+        - 'https://fonts.googleapis.com/'
+
+
+  content:
+    styles:
+      - 'unsafe-inline'
+    scripts:
+      - 'unsafe-hashes'
+      - 'unsafe-eval'
+      - 'unsafe-inline'

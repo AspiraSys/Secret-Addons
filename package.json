@@ -9,6 +9,7 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "dependencies": {
-    "@forge/resolver": "1.5.37"
+    "@forge/resolver": "1.5.37",
+    "confluence-global-page-custom-ui": "file:"
   }
 }
